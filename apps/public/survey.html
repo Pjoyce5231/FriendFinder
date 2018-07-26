@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Friend Finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="</script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row1">
+            <div class="col s12">
+                <h2>Survey Questions:</h2>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="col s12">
+                <h3>About You:</h3>
+            </div>
+        </div>
+        <div class="row3">
+            <div class="col s12">
+                <div class="input-field col s12">
+                    <textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
+                    <label for="textarea2">Name (Required)</label>
+                </div>
+            </div>
+        </div>
+        <div class="row4">
+            <div class="col s12">
+                <div class="col s12">
+                    <div class="input-field col s12">
+                        <textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
+                        <label for="textarea2">Photo URL Link (Required)</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row5">
+            <div class="col s12">
+                <h5>Question 1:</h5>
+                <p>Your mind is always buzzing with unexplored ideas and plans.</p>
+            </div>
+        </div>
+        <div class="row6">
+            <div class="col s12">
+                <select id="question1">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <label>Materialize Select</label>
+            </div>
+        </div>
+        <div class="row7">
+            <div class="col s12">
+                <h5>Question 2:</h5>
+                <p>Generally speaking, you rely more on your experience than your imagination.</p>
+            </div>
+        </div>
+        <div class="row8">
+            <div class="col s12">
+                <select id="question2">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <label>Materialize Select</label>
+            </div>
+        </div>
+        <div class="row9">
+            <div class="col s12">
+                <h5>Question 3:</h5>
+                <p>You find it easy to stay relaxed and focused even when there is some pressure. F </p>
+            </div>
+        </div>
+        <div class="row10">
+            <div class="col s12">
+                <select id="question3">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <label>Materialize Select</label>
+            </div>
+        </div>
+        <div class="row11">
+            <div class="col s12">
+                <h5>Question 4:</h5>
+                <p>You rarely do something just out of sheer curiosity.
+                </p>
+            </div>
+        </div>
+        <div class="row12">
+            <div class="col s12">
+                <select id="question4">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <label>Materialize Select</label>
+            </div>
+        </div>
+        <div class="row13">
+            <div class="col s12">
+                <h5>Question 5:</h5>
+                <p>People can rarely upset you.
+                </p>
+            </div>
+        </div>
+        <div class="row14">
+            <div class="col s12">
+                <select id="question5">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <label>Materialize Select</label>
+            </div>
+        </div>
+        <div class="row15">
+            <div class="col s12">
+                <h5>Question 6:</h5>
+                <p>It is often difficult for you to relate to other people’s feelings.
+                </p>
+            </div>
+        </div>
+        <div class="row16">
+            <div class="col s12">
+                <select id="question6">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <label>Materialize Select</label>
+            </div>
+        </div>
+        <div class="row17">
+            <div class="col s12" id="question7">
+                <h5>Question 7:</h5>
+                <p>In a discussion, truth should be more important than people’s sensitivities.
+                </p>
+            </div>
+        </div>
+        <div class="row18">
+            <div class="col s12">
+                <select>
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <label>Materialize Select</label>
+            </div>
+        </div>
+        <div class="row19">
+            <div class="col s12" id="question8">
+                <h5>Question 8:</h5>
+                <p>You rarely get carried away by fantasies and ideas.
+                </p>
+            </div>
+        </div>
+        <div class="row20">
+            <div class="col s12">
+                <select>
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <label>Materialize Select</label>
+            </div>
+        </div>
+        <div class="row21">
+            <div class="col s12" id="question9">
+                <h5>Question 9:</h5>
+                <p>You think that everyone’s views should be respected regardless of whether they are supported by facts or
+                    not.
+                </p>
+            </div>
+        </div>
+        <div class="row22">
+            <div class="col s12">
+                <select>
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <label>Materialize Select</label>
+            </div>
+        </div>
+        <div class="row23">
+            <div class="col s12" id="question10">
+                <h5>Question 10:</h5>
+                <p>You feel more energetic after spending time with a group of people.
+                </p>
+            </div>
+        </div>
+        <div class="row24">
+            <div class="col s12">
+                <select>
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <label>Materialize Select</label>
+            </div>
+        </div>
+        <div class="row25">
+            <div class="col s12">
+                <div class="col s12">
+                    <button class="btn waves-effect waves-light" id="submitButton" type="submit" name="action">
+                        <i class="material-icons right">Submit Survey</i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('select').formSelect();
+        });
+
+        var friends = [];
+
+        $("#submitButton").on("click", function () {
+            console.log("click")
+            var Input = {
+                name: $("#textarea2").val().trim(),
+                answers: [
+                    $("#question1 option:selected").val(),
+                    $("#question2 option:selected").val(),
+                    $("#question3 option:selected").val(),
+                    $("#question4 option:selected").val(),
+                    $("#question5 option:selected").val(),
+                    $("#question6 option:selected").val(),
+                    $("#question7 option:selected").val(),
+                    $("#question8 option:selected").val(),
+                    $("#question9 option:selected").val(),
+                    $("#question10 option:selected").val(),
+                ]
+            }
+            console.log(parseFloat($("#question1 option:selected").val()))
+            $.post("/api/survey", Input).done(function (data) {
+
+            })
+        })
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+</body>
+
+</html>
